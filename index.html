@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MyTune</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="images/logo.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <div class="ligar-apagar__luz">
+            <i title="Mudar tema" class="fas fa-adjust"></i>
+        </div>
+        <div class="musica-overlay">
+            <div class="video-letra">
+                <div class="btn-fechar" title="Fechar">
+                    x
+                </div>
+                <div class="overlay-video">
+                    
+                </div>
+                <div class="musica-letra">
+                </div>
+            </div>
+        </div>
+
+        <div class="song-playing">
+            
+        </div>
+
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <h2><b style="color: red"><i style="margin-right: 2px;" class="fas fa-guitar"></i>My</b><b style="color:rgb(0, 255, 213);">Tune</b></h2>
+                </div>
+                <div class="search">
+                    <form action="">
+                        <input type="search" name="procurar" placeholder="Pequisar músicas" required>
+                        <input type="submit" name="acao" value="Buscar">
+                    </form>
+                </div><!--search-->
+            </div>
+        </header>
+
+        <section class="sessao-principal">
+            <div class="container">
+                <h2 class="sessao-titulo">Top 5 mais ouvidas</h2>
+                <div class="sessao-principal__musicas">
+                    
+                </div><!--sessao-principal__musicas-->
+            </div><!--container-->
+        </section>
+
+        
+            <div class="section-divisao"></div>
+        
+
+        <section class="playlist-principal">
+            <h2 class="playlist-principal__titulo">Playlist da semana</h2>
+            <div class="container">
+                <div class="playlist-principal__img"><img src=""></div>
+                <div class="playlist-semanal">
+                    <ul></ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divisao"></div>
+
+        <section class="sobre">
+            <h2 class="tl-sobre">Sobre o <b style="color: red"><i style="margin-right: 2px;" class="fas fa-guitar"></i>My</b><b style="color:rgb(0, 255, 213);">Tune</b></h2>
+            <div class="container">
+                <div class="box-sobre">
+                    <h2><i class="fas fa-headphones"></i></h2>
+                    <h2 class="tl-box">Músicas</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Morbi at ex purus. Vivamus id pharetra est. Aenean vel aliquet urna,
+                    a mattis enim. Donec a lorem velit. Ut fringilla massa non lacus euismod,
+                    eu fermentum sem porttitor.</p>
+                </div>
+
+                <div class="box-sobre">
+                    <h2><i class="fas fa-user-circle"></i></h2>
+                    <h2 class="tl-box">Contas</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Morbi at ex purus. Vivamus id pharetra est. Aenean vel aliquet urna,
+                    a mattis enim. Donec a lorem velit. Ut fringilla massa non lacus euismod,
+                    eu fermentum sem porttitor.</p>
+                </div>
+
+                <div class="box-sobre">
+                    <h2><i class="fas fa-photo-video"></i></h2>
+                    <h2 class="tl-box">Fotos e vídeos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Morbi at ex purus. Vivamus id pharetra est. Aenean vel aliquet urna,
+                    a mattis enim. Donec a lorem velit. Ut fringilla massa non lacus euismod,
+                    eu fermentum sem porttitor.</p>
+                </div>
+
+                <div class="box-sobre">
+                    <h2><i class="fas fa-hand-holding-usd"></i></h2>
+                    <h2 class="tl-box">Monetização</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Morbi at ex purus. Vivamus id pharetra est. Aenean vel aliquet urna,
+                    a mattis enim. Donec a lorem velit. Ut fringilla massa non lacus euismod,
+                    eu fermentum sem porttitor.</p>
+                </div>
+
+                
+            </div>
+        </section>
+
+        
+
+        <footer>
+            <div class="container">
+                <ul class="footer-links">
+                    <a href="#"><li>Suporte</li></a>
+                    <a href="#"><li>Ajude-nos a melhorar</li></a>
+                    <a href="#"><li>Siga nossas redes sociais</li></a>
+                    <a href="#"><li>Coloque sua música no MyTune</li></a>
+                </ul>
+                <div class="footer-logo">
+                    <a href="#"><h2><b style="color: red"><i style="margin-right: 2px;" class="fas fa-guitar"></i>My</b><b style="color:rgb(0, 255, 213);">Tune</b></h2></a>
+                </div>
+
+                <div class="footer-social">
+                    <ul class="footer-social__links">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </ul>
+                </div>
+                <div class="footer-direitos">
+                    <p>© MyTune. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+        
+        
+
+        <script src="js/all.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/light.js"></script>
+        <script src="js/playlistSemanal.js"></script>
+        <script src="js/randomSong.js"></script>
+    </body>
+</html>
